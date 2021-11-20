@@ -46,7 +46,7 @@ Run:
 npx hardhat
 ```
 
-Choose the option to create a sample project. Say yes to everything.
+Choose the option to create a basic sample project. Say yes to everything.
 
 The sample project will ask you to install hardhat-waffle and hardhat-ethers. These are other goodies we'll use later :).
 
@@ -70,6 +70,16 @@ To make sure everything is working, run:
 ```bash
  npx hardhat compile
 ```
+
+Will you see something like this:
+
+```
+Downloading compiler 0.8.4
+Compiling 2 files with 0.8.4
+Compilation finished successfully
+```
+
+
 Then run:
 
 ```bash
